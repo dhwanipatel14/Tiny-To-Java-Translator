@@ -9,8 +9,6 @@ terminal String DIGIT, FALSE, TRUE;
 
 /* Non terminals */
 
-
-//
 non terminal String prog;
 non terminal String func;
 non terminal String type;
@@ -19,22 +17,8 @@ non terminal String formal;
 non terminal String block;
 non terminal String statement;
 non terminal String localvar;
-non terminal String assignstatement;
-non terminal String returnstatement;
-non terminal String ifstatement;
-non terminal String writestatement;
-non terminal String readstatement;
-non terminal String expression;
-non terminal String multexpression;
-non terminal String primaryexpression;
-non terminal String actualparams;
-non terminal String boolexpression;
-non terminal String addsub;
-non terminal String timediv;
-non terminal String digits;
-non terminal String number;
-non terminal String state;
-non terminal String prog2;
+non terminal String assignstatement, returnstatement,  ifstatement, writestatement,  readstatement, expression, multexpression, primaryexpression, String actualparams;
+non terminal String boolexpression,addsub, timediv, digits, number, state, prog2;
 
 
 
