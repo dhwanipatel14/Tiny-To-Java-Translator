@@ -1,6 +1,6 @@
 import java.io.*;
 
-/* Terminals (tokens returned by the scanner). */
+/* Terminals (tokens returned by the scanner).*/
 terminal String IDENTIFIER;
 terminal String STRING, REAL, INT, BEGIN, END, LPAREN, RPAREN, MAIN, RETURN, IF, READ, WRITE;
 terminal String COMMA, SEMICOLON, ASSIGN, QSTRING, FSTOP;
